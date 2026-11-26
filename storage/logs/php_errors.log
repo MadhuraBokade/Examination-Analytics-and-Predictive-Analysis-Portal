@@ -1,0 +1,11 @@
+[26-Nov-2026 14:48:50 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in C:\PROJECTS\epap\setup.php:239
+Stack trace:
+#0 C:\PROJECTS\epap\setup.php(239): PDO->exec('-- ============...')
+#1 {main}
+  thrown in C:\PROJECTS\epap\setup.php on line 239
+[26-Nov-2026 14:54:18 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\PROJECTS\epap\app\Core\Database.php:26
+Stack trace:
+#0 C:\PROJECTS\epap\app\Core\Database.php(26): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 C:\PROJECTS\epap\tests\_tmp_fail.php(18): App\Core\Database::getConnection()
+#2 {main}
+  thrown in C:\PROJECTS\epap\app\Core\Database.php on line 26
